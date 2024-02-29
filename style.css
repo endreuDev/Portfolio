@@ -257,7 +257,7 @@ body {
   transform: scale(1.1);
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1020px) {
   .abp-row {
     flex-direction: column-reverse !important;
   }
@@ -268,11 +268,11 @@ body {
 
   .hello,
   .intro {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   .role {
-    font-size: 6em;
+    font-size: 4em;
     text-decoration: underline;
   }
 
@@ -339,7 +339,7 @@ body {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .flex-container {
     padding: 0px;
     flex-direction: column;
@@ -373,7 +373,7 @@ body {
 
   .second-bottom-cloud {
     right: 5%;
-    top: 40%;
+    top: 45%;
     width: 25%;
   }
 
@@ -461,7 +461,46 @@ body {
   }
 
   .role {
-    font-size: 3.5em;
+    font-size: 3em;
+    text-decoration: underline;
+  }
+
+  .top-cloud {
+    right: 10%;
+    top: 4%;
+    width: 25%;
+  }
+
+  .first-bottom-cloud {
+    left: 5%;
+    top: 23%;
+    width: 25%;
+  }
+
+  .second-bottom-cloud {
+    right: 5%;
+    top: 70%;
+    width: 25%;
+  }
+
+  .mountain {
+    width: 100%;
+    left: 0%;
+  }
+}
+
+@media (max-height: 590px) {
+  .top-container {
+    height: 81vh;
+  }
+
+  .hello,
+  .intro {
+    font-size: 1.6em;
+  }
+
+  .role {
+    font-size: 2.2em;
     text-decoration: underline;
   }
 
