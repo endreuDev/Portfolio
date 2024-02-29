@@ -290,7 +290,7 @@ body {
 
   .second-bottom-cloud {
     right: 5%;
-    top: 50%;
+    top: 60%;
     width: 25%;
   }
 
@@ -489,18 +489,18 @@ body {
   }
 }
 
-@media (max-height: 590px) {
+@media screen and (max-height: 720px) and (max-width: 450px) {
   .top-container {
-    height: 81vh;
+    height: 86vh;
   }
 
   .hello,
   .intro {
-    font-size: 1.6em;
+    font-size: 2em;
   }
 
   .role {
-    font-size: 2.2em;
+    font-size: 2.5em;
     text-decoration: underline;
   }
 
